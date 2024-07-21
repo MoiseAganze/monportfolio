@@ -56,7 +56,7 @@ function AppBanner() {
 					>
 						<FiArrowDownCircle className="ml-0 sm:ml-1 mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
 						<span className="text-sm sm:text-lg duration-100">
-							Télecharger mon CV
+							MON CV
 						</span>
 					</a>
 				</motion.div>
