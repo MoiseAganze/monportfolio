@@ -28,16 +28,17 @@ function ProjectSingle(props) {
               {props.project.ProjectHeader.tags}
             </span>
           </div>
-          <a
+          <Link
             href={props.project.url}
             target="_blank"
+            rel="noreferrer"
             className="flex items-center cursor-pointer"
           >
             <span className="font-general-regular ml-3 leading-none text-primary-dark dark:text-primary-light">
               Visiter
             </span>
             <FiArrowUpRight className="w-5 h-5 text-ternary-dark dark:text-ternary-light ml-2" />
-          </a>
+          </Link>
         </div>
       </div>
 
