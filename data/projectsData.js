@@ -12,7 +12,7 @@ export const projectsData = [
     id: 1,
     title: "MondeAnime",
     url: "https://mondeanimes.vercel.app/",
-    category: "Web Application",
+    category: "Application Web",
     img: "/images/mondanime.webp",
     ProjectHeader: {
       title: "MondeAnime",
@@ -75,6 +75,72 @@ export const projectsData = [
           id: uuidv4(),
           details:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    title: "SITE VITRINE BOUTIQUE D'HABILLEMENT",
+    url: "https://site-vitrine-boutique-habillement.vercel.app/",
+    category: "Application Web",
+    img: "/images/sitehabits/sitehabit1.png",
+    ProjectHeader: {
+      title: "SITE VITRINE BOUTIQUE D'HABILLEMENT",
+      publishDate: "25/09/2024",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Accueil",
+        img: "/images/sitehabits/sitehabit1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Articles",
+        img: "/images/sitehabits/sitehabit4.png",
+      },
+      {
+        id: uuidv4(),
+        title: "A propo",
+        img: "/images/sitehabits/sitehabit5.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "A propos du Site",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Nom",
+          details: "SITE VITRINE BOUTIQUE D'HABILLEMENT",
+        },
+        {
+          id: uuidv4(),
+          title: "Type",
+          details: "Commerce",
+        },
+        {
+          id: uuidv4(),
+          title: "site web",
+          details: "https://site-vitrine-boutique-habillement.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Breve Description",
+      ObjectivesDetails:
+        "Un model d'un site pour présenter sa boutique, son business,entreprise autrement appelé 'Site Vitrine'",
+      Technologies: [
+        {
+          title: "Outils & Technologies",
+          techs: ["Next.js", "TailwindCSS"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Dans la conception de ce site j'ai principalement utilisé Nextjs et Tailwindcss, mais aussi Framer-motion pour les animations et transitions",
         },
       ],
     },

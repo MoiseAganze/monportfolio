@@ -1,8 +1,9 @@
 const selectOptions = [
-  "Web Application",
-  "Mobile Application",
-  "UI/UX Design",
-  "Branding",
+  "Application Web",
+  "Application Mobile",
+  "Bots",
+  "Logiciels",
+  "Jeux Videos",
 ];
 
 function ProjectsFilter({ setSelectProject }) {
@@ -15,6 +16,7 @@ function ProjectsFilter({ setSelectProject }) {
                 px-4
                 sm:px-6
                 py-2
+                pr-10
                 border
                 dark:border-secondary-dark
                 rounded-lg
