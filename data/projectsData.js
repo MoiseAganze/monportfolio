@@ -28,12 +28,12 @@ export const projectsData = [
       {
         id: uuidv4(),
         title: "MondeAnime",
-        img: "/images/mondanime.webp",
+        img: "/images/mondeanime1.webp",
       },
       {
         id: uuidv4(),
         title: "MondeAnime",
-        img: "/images/mondanime.webp",
+        img: "/images/mondeanime2.webp",
       },
     ],
     ProjectInfo: {
@@ -141,6 +141,129 @@ export const projectsData = [
           id: uuidv4(),
           details:
             "Dans la conception de ce site j'ai principalement utilisé Nextjs et Tailwindcss, mais aussi Framer-motion pour les animations et transitions",
+        },
+      ],
+    },
+  },
+
+  {
+    id: 3,
+    title: "SITE D'ACTUALITÉS SUR LE MONDE",
+    url: "https://infos-monde.vercel.app/",
+    category: "Application Web",
+    img: "/images/infosmonde.png",
+    ProjectHeader: {
+      title: "SITE D'ACTUALITÉS SUR LE MONDE",
+      publishDate: "18/10/2024",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Accueil",
+        img: "/images/infosmonde.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "A propos du Site",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Nom",
+          details: "INFOS MONDE",
+        },
+        {
+          id: uuidv4(),
+          title: "Type",
+          details: "actualité",
+        },
+        {
+          id: uuidv4(),
+          title: "site web",
+          details: "https://infos-monde.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Breve Description",
+      ObjectivesDetails:
+        "Un site qui pour être informé de ce qui se passe dans le monde ",
+      Technologies: [
+        {
+          title: "Outils & Technologies",
+          techs: ["Next.js", "TailwindCSS"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Dans la conception de ce site j'ai principalement utilisé Reactjs et Material Ui, et j'ai surtout exploité l'api WordNews pour recolter les informations",
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    title: "Base-Image",
+    url: "https://baseimages-chi.vercel.app/",
+    category: "Application Web",
+    img: "/images/baseimage1.webp",
+    ProjectHeader: {
+      title: "base-Image",
+      publishDate: "24 Oct 2024",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "MondeAnime",
+        img: "/images/baseimage1.webp",
+      },
+      {
+        id: uuidv4(),
+        title: "MondeAnime",
+        img: "/images/baseimage2.webp",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "A propos du Site",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Nom",
+          details: "Base-Image",
+        },
+        {
+          id: uuidv4(),
+          title: "Type",
+          details: ".......",
+        },
+        {
+          id: uuidv4(),
+          title: "site web",
+          details: "https://baseimages-chi.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Breve Description",
+      ObjectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      Technologies: [
+        {
+          title: "Outils & Technologies",
+          techs: ["HTML", "CSS", "JavaScript", "Next.js", "TailwindCSS"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
         },
       ],
     },
